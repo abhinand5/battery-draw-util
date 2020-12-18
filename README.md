@@ -32,8 +32,6 @@ $ ./setup.sh
 
 After setting up the binary. Test in your terminal if the command below is working without any errors.
 
-> If you have plugged in your device it will not show any output. 
-
 ```bash
 $ bat-draw --help
 Usage: bat-draw [OPTIONS]
@@ -47,10 +45,12 @@ Options:
 
 The tool can be used in two different modes. It shows two fields, user can choose what to show using the next two flags. 
 
+> If you have plugged in your device it will not show any output. 
+
 Below is an example of `normal` mode for all fields.
 
 ```
-$ bat-draw -m short -a
+$ bat-draw -m normal -a
 Btr-Draw: 4.322 W - 10.0 hours left
 ```
 
